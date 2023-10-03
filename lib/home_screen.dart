@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return (Text("Loading"));
-                  // } else if (snapshot.hasData) {
+                    // } else if (snapshot.hasData) {
                     // return (Text("has data"));
                   } else {
                     return Text(snapshot.data!.latitude.toString());
