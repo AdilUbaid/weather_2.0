@@ -24,10 +24,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Weather"),
+        title: Text("Location"),
         centerTitle: true,
       ),
-      body: Column(
+      body: ListView(
         children: [
           Expanded(
               child: Column(children: [
